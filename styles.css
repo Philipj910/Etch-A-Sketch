@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-items: center;
+    height: auto;
+    width: auto;
+    background-color: rgba(41, 6, 6, 0.349);
+    font-family: monospace;
+}
+
+#container {
+    display: grid;
+    height: 530px;
+    width: 530px;
+    background: #ffffffe3;
+    border: 2em solid red;
+    border-radius: 10%;
+}
+
+h2 {
+   font-size: 30px; 
+}
+
+#wrapper {
+    padding: 0em 2em 2em 2em;
+}
+
+button {
+    font-size: 15px;
+    padding: 1em 2em 1em 2em;
+    margin: 1em 1em .5em 1em;
+}
+
+.box {
+    border: 1px solid rgba(0, 0, 0, 0.055);
+}
+
+.box:hover {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
