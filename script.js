@@ -36,7 +36,7 @@ const resizeGrid = document.getElementById("gridsize").addEventListener("click",
 function resize() {
     container.innerHTML = "";
     clear();
-    let userInput = Number(prompt("What number you want?"));
+    let userInput = Number(prompt("Choose a number between 1 and 100"));
     if(userInput > 100 || userInput < 1) {
         alert("Please choose a number between 1 and 100");
     } else 
