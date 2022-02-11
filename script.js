@@ -64,7 +64,7 @@ function rainbowPen() {
     boxes[i].addEventListener("mouseover", () => rainbowInk(boxes[i]));
     }
 }; 
-
+//Creates black ink
 const blackInk = document.getElementById("black").addEventListener("click", blackpen)
 function blackpen() {
     for (let i = 0; i < boxes.length; i++) {
